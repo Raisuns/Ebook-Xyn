@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manga</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-600">
+
+    <div id="loading-screen" class="flex items-center justify-center h-screen bg-gray-100 fixed inset-0 z-50">
+        <video autoplay muted loop class="absolute inset-0 object-cover w-full h-full">
+            <source src="https://res.cloudinary.com/dm1dyk0c6/video/upload/v1731223144/aibuxq6up9xccolruxhb.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <header class="p-4 dark:bg-gray-500 dark:text-gray-900">
+        <div class="container flex justify-between items-center h-16 mx-auto md:justify-between">
+            <div class="flex items-center justify-center space-x-2 w-full md:w-auto mr-4">
+                <img src="https://res.cloudinary.com/dm1dyk0c6/image/upload/v1731222605/abujwgaxklb2jkifkypr.jpg" alt="Logo" class="w-20 h-20 rounded-full">
+            </div>
+            <div class="text-2xl font-bold">
+                <span class="text-Black">E-Xyn</span>
+                <span class="text-Black">Shelf</span>
+            </div>
+            <div id="clock" class="text-xl font-mono font-semibold ml-auto"></div>
+        </div>
+    </header>
+
+    <section class="relative">
+        <video autoplay loop muted playsinline class="absolute top-0 left-0 w-full h-full object-cover z-0">
+            <source src="https://res.cloudinary.com/dm1dyk0c6/video/upload/v1726213426/wxkvvimnjzbco7fksydu.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="relative z-10 container flex flex-col items-center px-4 py-52 pb-50 mx-auto text-center lg:pb-72 md:py-68 md:px-10 lg:px-32 dark:text-gray-50">
+            <h1 class="text-5xl font-bold leading-none sm:text-6xl xl:max-w-3xl dark:text-gray-50 bg-black-200">Gateway to the World of Reading</h1>
+            <p class="mt-6 mb-8 text-lg sm:mb-12 xl:max-w-3xl dark:text-gray-50">"We provide reading books in the form of manga".</p>
+        </div>
+    </section>
+    <div class="bg-slate-800 py-10">
+        <p class="text-center text-white text-lg">Explore our Manga And You Can Download It for free</p>
+    </div>
+    <div class="flex">
+        <aside class="w-50 sm:w-60 p-6 dark:bg-gray-400 dark:text-gray-50">
+            <nav class="space-y-4 text-sm">
+                <div class="space-y-2">
+                    <h2 class="text-sm font-semibold tracking-widest uppercase dark:text-gray-700">Dashboard</h2>
+                    <div class="flex flex-col space-y-1">
+                        <a rel="noopener noreferrer" href="Terms.html">About & Terms</a>
+                        <a rel="noopener noreferrer" href="https://anoboy.icu/">Anoboy</a>
+                        <a rel="noopener noreferrer" href="https://meganei.net/">Meganei</a>
+                        <a rel="noopener noreferrer" href="https://komiku.id/">Komiku</a>
+                        <a rel="noopener noreferrer" href="https://www.tiktok.com/@raisxyn?_t=8rGrfpuTzTV&_r=1">TikTok</a>
+                        <a rel="noopener noreferrer" href="https://github.com/Raisuns">GitHub</a>
+                    </div>
+                </div>
+            </nav>
+        </aside>
+        <div class="container mx-auto px-4 py-8 flex-1">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 justify-items-center">
+                <!-- Kartu 1 -->
+                <div class="max-w-xs rounded-md shadow-md dark:bg-gray-400 dark:text-gray-800">
+                    <img src="https://res.cloudinary.com/dm1dyk0c6/image/upload/v1730944463/xuy3ootxb7haf4ubvr5e.png" alt="Gambar ilustrasi Ani To Imouto Shitai" class="w-full rounded-t-md h-72 object-contain dark:bg-gray-500">
+                    <div class="flex flex-col justify-between p-6 space-y-8">
+                        <div class="space-y-2">
+                            <h2 class="text-3xl font-semibold tracking-wide">Ani To Imouto Shitai</h2>
+                            <p class="dark:text-gray-800">“Dulu, Kouta Moriyama tuh seorang mangaka dewasa yang gagal sukses. Gara-gara kurang populer, dia bahkan hampir bangkrut. Tapi suatu hari, dia jadi penulis yang sukses banget dengan gambaran penuh realistis dan menawan tentang tokoh wanitanya. Nah, tau nggak, kenapa dia tiba-tiba berubah gaya? Soalnya, Kouta memakai adik perempuannya, Shizuku, sebagai model…?!“</p>
+                        </div>
+                        <a href="Ani/Ani.html" class="flex justify-center items-center hover:bg-indigo-950 font-bold text-white bg-gray-800 rounded-full px-5 py-3">Read More</a>
+                    </div>
+                </div>
+        
+                <!-- Kartu 2 -->
+                <div class="max-w-xs rounded-md shadow-md dark:bg-gray-400 dark:text-gray-800">
+                    <img src="https://res.cloudinary.com/dm1dyk0c6/image/upload/v1731055107/duiq14rjmxuskaqtfpjm.jpg" alt="Ilustrasi Chikan Saresou Ni Natteiru" class="w-full rounded-t-md h-72 object-contain dark:bg-gray-500">
+                    <div class="flex flex-col justify-between p-6 space-y-8">
+                        <div class="space-y-2">
+                            <h2 class="text-3xl font-semibold tracking-wide">Chikan Saresou Ni Natteiru</h2>
+                            <p class="dark:text-gray-800">Pada suatu hari, Takamori Ryou melakukan rutinitas seperti biasanya, tetapi ada satu hal yang tidak biasa, yaitu ia melihat seorang gadis dilecehkan oleh penjahat kelamin. Ryou menolong gadis itu tanpa ragu, tetapi siapa yang menyangka bahwa gadis yang dirinya tolong adalah Hina. Kejadian itu membuat hubungan mereka yang sempat menjauh mulai mendekat kembali, dan dimulailah kisah cinta mereka berdua.                  </p>
+                        </div>
+                        <a href="Chikan/Chikan.html" class="flex justify-center items-center hover:bg-indigo-950 font-bold text-white bg-gray-800 rounded-full px-5 py-3">Read More</a>
+                    </div>
+                </div>
+        
+                <!-- Kartu 3 -->
+                <div class="max-w-xs rounded-md shadow-md dark:bg-gray-400 dark:text-gray-800">
+                    <img src="https://res.cloudinary.com/dm1dyk0c6/image/upload/v1731054931/ijbfdonsw7ntnbvz3i0f.jpg" alt="ilustrai Saikyou Mahoushi No Inton Keikaku The Alternatif" class="w-full rounded-t-md h-72 object-contain dark:bg-gray-500">
+                    <div class="flex flex-col justify-between p-6 space-y-8">
+                        <div class="space-y-2">
+                            <h2 class="text-3xl font-semibold tracking-wide">Saikyou Mahoushi No Inton Keikaku The Alternatif</h2>
+                            <p class="dark:text-gray-800">Ratusan tahun yang lalu, para iblis muncul secara tiba-tiba dan mulai menyerang manusia. Saat itu, manusia bahkan tidak dapat menggores mereka dengan senjata biasa. Manusia membangun tujuh negara untuk mencegah ras mereka punah, dan berhasil menghalangi para iblis dengan mengalihkan teknologi sihir mereka ke militer. Namun, pertempuran melawan para iblis masih terus berlanjut.</p>
+                        </div>
+                        <a href="Mahou/Mahou.html" class="flex justify-center items-center hover:bg-indigo-950 font-bold text-white bg-gray-800 rounded-full px-5 py-3">Read More</a>
+                    </div>
+                </div>
+        
+                <!-- Kartu 4 -->
+                <div class="max-w-xs rounded-md shadow-md dark:bg-gray-400 dark:text-gray-800">
+                    <img src="https://res.cloudinary.com/dm1dyk0c6/image/upload/v1731221869/tkpy2olbbl78ibwxyhik.webp"  alt="ilustrai Weebton character na kang lim" class="w-full rounded-t-md h-72 object-contain dark:bg-gray-500">
+                    <div class="flex flex-col justify-between p-6 space-y-8">
+                        <div class="space-y-2">
+                            <h2 class="text-3xl font-semibold tracking-wide">webtoon character na kang lim</h2>
+                            <p class="dark:text-gray-800"> Na Kang Lim seorang siswa SMA yang gemar membaca webtoon, suatu hari mengalami kejadian aneh ketika pemeran utama wanita dari webtoon muncul dihadapanya. Yang lebih mengejutkan lagi, insiden yang sama yang membayangkanya di webtoon mulai terjadi dikehidupan nyata.</p>
+                        </div>
+                        <a href="Kanglim/Lim.html" class="flex justify-center items-center hover:bg-indigo-950 font-bold text-white bg-gray-800 rounded-full px-5 py-3">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="mt-10 mb-5 text-center border-t border-gray-50 py-2">
+        <div class="container mx-auto flex flex-col items-center">
+            <p class="text-white text-sm font-light text-center">
+                Copyright © RAIS_XYN. All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        setTimeout(function() {
+            const loadingScreen = document.getElementById('loading-screen');
+            loadingScreen.style.display = 'none';
+        }, 7000);
+
+
+        function updateClock() {
+          const now = new Date();
+          const hours = String(now.getHours()).padStart(2, '0');
+          const minutes = String(now.getMinutes()).padStart(2, '0');
+          const seconds = String(now.getSeconds()).padStart(2, '0');
+          const timeString = `${hours}:${minutes}:${seconds}`;
+          document.getElementById('clock').textContent = timeString;
+        }
+        setInterval(updateClock, 1000);
+        updateClock();
+      </script>
+</body>
+</html>
